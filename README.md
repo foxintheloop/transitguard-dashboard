@@ -33,7 +33,7 @@ Follow these steps to get the project running locally:
 
 ```sh
 # Step 1: Clone the repository
-git clone <REPOSITORY_URL>
+git clone https://github.com/foxintheloop/transitguard-dashboard.git
 
 # Step 2: Navigate to the project directory
 cd transitguard-dashboard
