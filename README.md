@@ -8,17 +8,18 @@ Web dashboard for visualizing crime hotspots, ridership patterns, and predictive
 
 ## Features
 
-- **Live safety metrics** — Incident counts, trends, and hotspot maps
-- **Predictive alerts** — XGBoost-powered risk forecasting by station and time
-- **Spatial clustering** — DBSCAN-identified high-risk zones
-- **Historical analysis** — 10 years of CTA crime data (2014-2024)
+- **Live safety metrics** - Incident counts, trends, and hotspot maps
+- **Predictive alerts** - XGBoost-powered risk forecasting by station and time
+- **Spatial clustering** - DBSCAN-identified high-risk zones
+- **Historical analysis** - 10 years of CTA crime data (2014-2024)
 
 ## Part of TransitGuard
 
 This dashboard is one component of the TransitGuard platform. See also:
 
-- [TransitGuard Mobile App](https://github.com/foxintheloop/transitguard-app) — SMS/push alerts for riders
-- [TransitGuard (main)](https://github.com/foxintheloop/transitguard) — Project overview and documentation
+- [TransitGuard Mobile App](https://github.com/foxintheloop/transitguard-app) - SMS/push alerts for riders
+- [TransitGuardRAG](https://github.com/foxintheloop/TransitGuardRAG) - GenAI RAG API chatbot backend
+- [TransitGuard (main)](https://github.com/foxintheloop/transitguard) - Project overview and documentation
 
 ## Getting Started
 
