@@ -1,16 +1,24 @@
 # TransitGuard Dashboard
 
-A modern web application dashboard built with React, TypeScript, and Tailwind CSS.
+**Real-time safety analytics for Chicago CTA operations.**
 
-## Technologies Used
+Web dashboard for visualizing crime hotspots, ridership patterns, and predictive safety alerts across the Chicago Transit Authority system.
 
-This project is built with:
+![Dashboard Screenshot](assets/dashboard-screenshot.png)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Features
+
+- **Live safety metrics** — Incident counts, trends, and hotspot maps
+- **Predictive alerts** — XGBoost-powered risk forecasting by station and time
+- **Spatial clustering** — DBSCAN-identified high-risk zones
+- **Historical analysis** — 10 years of CTA crime data (2014-2024)
+
+## Part of TransitGuard
+
+This dashboard is one component of the TransitGuard platform. See also:
+
+- [TransitGuard Mobile App](https://github.com/foxintheloop/transitguard-app) — SMS/push alerts for riders
+- [TransitGuard (main)](https://github.com/foxintheloop/transitguard) — Project overview and documentation
 
 ## Getting Started
 
@@ -36,31 +44,21 @@ npm i
 npm run dev
 ```
 
-## Development
+## Data
 
-### Local Development
+All data sourced from the [City of Chicago Data Portal](https://data.cityofchicago.org/):
+- CTA crime incidents (50K+ records)
+- Ridership data (L stations, bus routes)
+- 311 reports (streetlight outages, graffiti)
 
-The development server includes:
-- Hot module replacement
-- Instant preview
-- TypeScript support
-- Tailwind CSS processing
+## Stack
 
-### Code Editing
+`Python` `Streamlit` `Pandas` `Folium` `Plotly` `scikit-learn` `XGBoost`
 
-You can edit the code using:
-- Your preferred IDE
-- GitHub's web interface
-- GitHub Codespaces
+## Team
 
-## Deployment
+Northwestern University MSDS 498 Capstone (2025)
 
-The project can be deployed to any static hosting service that supports Node.js applications.
+## License
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+MIT
