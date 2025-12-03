@@ -4,7 +4,7 @@
 
 Web dashboard for visualizing crime hotspots, ridership patterns, and predictive safety alerts across the Chicago Transit Authority system.
 
-![Dashboard Screenshot](assets/dashboard-screenshot.png)
+![Dashboard Screenshot](assets/transitguard-dashboard.png)
 
 ## Features
 
